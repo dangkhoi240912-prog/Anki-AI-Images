@@ -1,0 +1,18 @@
+# AnkiAI Add-on Dependencies
+# 
+# Lưu ý: Anki đã bao gồm sẵn:
+# - requests (dùng cho HTTP calls)
+# - PyQt6 (dùng cho UI)
+# - aqt (Anki's Qt framework)
+#
+# File này chỉ để reference. Không cần pip install khi dùng trong Anki.
+
+# Für development/testing purposes:
+requests>=2.28.0          # HTTP requests
+PyQt6>=6.4.0              # Qt GUI framework
+aqt>=2.1.60               # Anki Qt framework
+anki>=23.12               # Anki core library
+
+# Optional for testing:
+pytest>=7.0               # Testing framework
+pytest-asyncio>=0.21.0    # Async test support
